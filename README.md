@@ -6,7 +6,7 @@
 ```js
 function myFunction() {
 
-  const url = 'https://script.google.com/macros/s/AKfycbyfPhxikc4bsuaE3TPFp1iUR3W5PWo5pmFqL-J_QeZK1gFchYikhnzhI2jUQ1ybFXgT/exec';
+  const url = 'ウェブアプリのURL';
   const response = UrlFetchApp.fetch(url);
 
   const json = JSON.parse(response.getContentText());
